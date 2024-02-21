@@ -1,0 +1,4 @@
+repository "crossyRoadMM@MaximeBrousse@cloud"
+  path "/"
+    br "/main"
+    co "/main"
