@@ -14,7 +14,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9efb1663e65dadb4f887c721389bb850, type: 2}
     - target: {fileID: 5051128935517317835, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
       propertyPath: m_Name
-      value: road Variant
+      value: road
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361132581909381241, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361132581909381241, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5361132581909381241, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
       propertyPath: m_LocalPosition.x

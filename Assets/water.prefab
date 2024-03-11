@@ -14,7 +14,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b71a4ecd90dadb449837aadeaa2364c5, type: 2}
     - target: {fileID: 5051128935517317835, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
       propertyPath: m_Name
-      value: water Variant
+      value: water
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361132581909381241, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361132581909381241, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5361132581909381241, guid: 23be190f2d76c9a489313438e2e79cbb, type: 3}
       propertyPath: m_LocalPosition.x

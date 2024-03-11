@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private TerrainGenerator terrainGenerator;
+
     private Animator _animator;
     public Keyboard Keyboard;
     private bool _isHopping = false;
@@ -55,6 +57,7 @@ public class Player : MonoBehaviour
         _animator.SetTrigger("hopping");
         _isHopping = true;
         transform.position = (transform.position + difference);
+        terrainGenerator.SpawnTerrain(false, transform.position);
     }
     public void FinishHop()
     {

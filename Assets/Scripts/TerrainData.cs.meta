@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: ec2cde348046b824887416a1c64ac10f
+guid: 438c141e2acd4cc44a8c76711ddc37ff
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - terrain: {fileID: 4895005584401857909, guid: 34d13f816288e824a857ca8519c2b420, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
