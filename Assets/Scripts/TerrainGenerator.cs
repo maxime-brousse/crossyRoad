@@ -11,7 +11,7 @@ public class TerrainGenerator : MonoBehaviour {
 
     private List<GameObject> currentTerrains = new List<GameObject>();
 
-    public Vector3 currentPosition = new Vector3(0, -1, 0);
+    public Vector3 currentPosition = new Vector3(5, -1, 0);
     public Keyboard Keyboard;
 
     private void Start(){
@@ -27,10 +27,11 @@ public class TerrainGenerator : MonoBehaviour {
         {
             int whichTerrain = Random.Range(0, terrainDatas.Count);
             int terrainInSuccession = Random.Range(1, terrainDatas[whichTerrain].maxInSuccession);
+            Debug.Log(terrainInSuccession);
 
             for (int i = 0; i < terrainInSuccession; i++)
             {
-                GameObject terrain = Instantiate(terrainDatas[whichTerrain].terrain, currentPosition, Quaternion.identity, terrainHolder);
+                GameObject terrain = Instantiate(terrainDatas[whichTerrain].possibleTerrain[Random.Range(0, terrainDatas[whichTerrain].possibleTerrain.Count)], currentPosition, Quaternion.identity, terrainHolder);
                 currentTerrains.Add(terrain);
                 if (!isStart)
                 {

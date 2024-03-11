@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 [CreateAssetMenu(fileName = "Terrain Data", menuName = "Terrain Data")]
 public class TerrainData : ScriptableObject{
-   public GameObject terrain;
+   public List<GameObject> possibleTerrain;
    //public List<GameObject> terrains;
    public int maxInSuccession;
 }

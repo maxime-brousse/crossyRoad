@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2898373513462805164}
   - component: {fileID: 6043697838972180686}
   m_Layer: 0
-  m_Name: grass
+  m_Name: water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 5051128935517317835}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.03, y: -5.34, z: 18.4}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalPosition: {x: 4.03, y: -0.05, z: 18.4}
+  m_LocalScale: {x: 50, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 931ff75a309e13448a85bf49949b4631, type: 2}
+  - {fileID: 2100000, guid: a9b200034999d12459cf41aea76912a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

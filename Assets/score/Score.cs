@@ -7,14 +7,18 @@ using UnityEngine.UI;
 public class ScoreText : MonoBehaviour
 {
     [SerializeField] private Text ScoreObect;
+    [SerializeField] private GameObject player;
 
     public int ScoreNumber = 0;
     public Keyboard Keyboard;
 
     private void ScoreUpdate()
     {
-        ScoreNumber += 15;
-        ScoreObect.text = "Score : " + ScoreNumber;
+        if(player != null)
+        {
+            ScoreNumber += 15;
+            ScoreObect.text = "Score : " + ScoreNumber;
+        }
     }
 
     // Start is called before the first frame update
