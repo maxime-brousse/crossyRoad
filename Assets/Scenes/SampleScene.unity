@@ -433,7 +433,7 @@ Transform:
   m_GameObject: {fileID: 222930035}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 5}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -458,7 +458,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c4c10a6ada5ffd24591269ea8cd16b35, type: 2}
   - {fileID: 11400000, guid: 9a2fe4a9b903f604e8d7fd41686ab783, type: 2}
   terrainHolder: {fileID: 709358772}
-  currentPosition: {x: 5, y: -1, z: 0}
+  currentPosition: {x: 0, y: -1, z: 5}
 --- !u!1 &231407471
 GameObject:
   m_ObjectHideFlags: 0
